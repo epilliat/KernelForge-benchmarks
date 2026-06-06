@@ -1,0 +1,6 @@
+# Plot outputs — figures are regenerated from CSVs by
+# KernelForge.jl/perfs/julia/plots_from_csv.jl.
+*.png
+*.svg
+*.pdf
+figures/
