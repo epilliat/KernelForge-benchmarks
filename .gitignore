@@ -1,6 +1,11 @@
-# Plot outputs — figures are regenerated from CSVs by
-# KernelForge.jl/perfs/julia/plots_from_csv.jl.
-*.png
+# figures/ is a DELIVERABLE of this repo, not a build artifact: the
+# KernelForge.jl README embeds figures/<GPU>/*.png by raw URL, so those PNGs
+# must be tracked here. (They were ignored back when the plotter lived in the
+# package repo and wrote its output into it.)
+#
+# Everything else a plotting run can drop — SVG/PDF exports, scratch PNGs
+# outside figures/ — stays out.
 *.svg
 *.pdf
-figures/
+*.png
+!figures/**/*.png
